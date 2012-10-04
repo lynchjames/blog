@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Too Many Books
+title: lynchjames
 ---
 {% include JB/setup %}

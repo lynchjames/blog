@@ -10,11 +10,11 @@ future: false
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : toomanybooks
+title : lynchjames
 tagline: 
 author :
   name : James Lynch
-  email : tmanybooks@gmail.com
+  email : lynchjames@gmail.com
   github : lynchjames
   twitter : lynchjames
   feedburner :
@@ -27,7 +27,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://toomanybooks.jlyn.ch
+production_url : http://lynchjames.org.uk
 
 #safe: true
 
@@ -85,7 +85,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : toomanybooks
+      short_name : lynchjames
     livefyre :
       site_id :
     intensedebate :
@@ -103,7 +103,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-34441701-1'
+        tracking_id : 'UA-5010659-2'
     getclicky :
       site_id : 
     mixpanel :

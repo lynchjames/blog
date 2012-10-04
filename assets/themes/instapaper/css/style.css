@@ -35,11 +35,11 @@ h1 {
 }
 
 a, a:visited {
-  color: #9F111B;
+  color: #B11623;
 }
 
 a:hover {
-  color: #005580;
+  color: #B11623;
 }
 .post-title a, .post-title a:hover {
   color: #333;
@@ -76,7 +76,7 @@ article {
 }
 
 .navbar-inner {
-  background-color: #B11623;
+  background-color: #233A3B;
   background-image: none;
   min-height: 80px;
 }
@@ -94,7 +94,7 @@ article {
 }
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
-  background-color: #B11623;
+  background-color: #233A3B;
 }
 
 /*.navbar .bookmark {

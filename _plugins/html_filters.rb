@@ -6,8 +6,8 @@ module Liquid
   module StandardFilters
     
     def truncatehtml(raw, max_length = 15, continuation_html = "", continuation_string = "...")
-     doc = Nokogiri::HTML(Iconv.conv('UTF8//TRANSLIT//IGNORE', 'UTF8', raw)) 
-     continuation = Nokogiri::HTML(Iconv.conv('UTF8//TRANSLIT//IGNORE', 'UTF8', continuation_html))
+     doc = Nokogiri::HTML(raw) 
+     continuation = Nokogiri::HTML(continuation_html)
       current_length = 0;
       deleting = false
       to_delete = []
